@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Navbar />
       <Filter />
-      <section className="w-10/12 mx-auto lg:grid grid-cols-5 gap-x-8 gap-y-8 mt-12 mb-12">
+      <section className="w-10/12 mx-auto grid lg:grid-cols-5 gap-x-8 gap-y-8 mt-12 mb-12">
         {sliceCountry.map((country) => {
           return (
             <Card
